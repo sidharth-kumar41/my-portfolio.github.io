@@ -97,6 +97,9 @@ a:hover {
   height: 24px;
   width: 30px;
   cursor: pointer;
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+  
 }
 
 .hamburger-icon span {
@@ -224,6 +227,8 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
 
 }
 
